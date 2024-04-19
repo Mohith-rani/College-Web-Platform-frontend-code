@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b6c99af8.css",
+    "main.js": "/static/js/main.38e76deb.js",
+    "static/media/Logo.jpg": "/static/media/Logo.f18f1b4fe02e5653f5cf.jpg",
+    "static/media/college_pic.jpeg.jpg": "/static/media/college_pic.jpeg.991d7dd98881881a8d0c.jpg",
+    "static/media/Logonew.jpg": "/static/media/Logonew.783c4a033bcfd3fa597f.jpg",
+    "static/media/placements.jpg": "/static/media/placements.24f4b53c633bc8111bd0.jpg",
+    "static/media/events.jpg": "/static/media/events.3b37bc97c7984232da5c.jpg",
+    "static/media/scrolls.jpg": "/static/media/scrolls.f89fb4f8e8b6a8510533.jpg",
+    "static/media/circular.jpg": "/static/media/circular.66a118c2f062814be22a.jpg",
+    "static/media/chairman.jpg": "/static/media/chairman.0d73710ede9d58c02cc5.jpg",
+    "static/media/basketball.webp": "/static/media/basketball.d27b3c4cf968603824f0.webp",
+    "static/media/welcome.jpg": "/static/media/welcome.da10278ce16eca6274b8.jpg",
+    "static/media/others.png": "/static/media/others.5c745e366f35f8bdbd53.png",
+    "index.html": "/index.html",
+    "main.b6c99af8.css.map": "/static/css/main.b6c99af8.css.map",
+    "main.38e76deb.js.map": "/static/js/main.38e76deb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6c99af8.css",
+    "static/js/main.38e76deb.js"
+  ]
+}

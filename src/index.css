@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  border:none;
+  font-family: Quicksand;
+}
+button{
+  padding:5px;
+  background-color: rgb(189, 179, 180);
+  font-size: large;
+  color: black;
+  border-radius:10px;
+  margin:30px 0;
+}
+nav{
+  display:flex;
+  margin-top:10px;
+  align-items:center;
+  border-bottom:1px solid #c9c8c8;
+  
+}
+.chairman{
+  border-radius:50%;
+}
+.college{
+  border-radius:10%;
+}
+
+.two-grid{
+  display:grid;
+  grid-template-columns: 725px 725px;
+  width: 400px;
+  position: absolute;
+  top:30%;
+  left:2%;
+  margin-top: 30px;
+}
+
+.first-box{
+  border: 3px solid black;
+  border-radius:10px;
+  height:24em;
+  margin:0 30px;
+  justify-content: center;
+  align-items: center;
+}
+.second-box{
+  border-radius:10px;
+  border: 3px solid black;
+  margin:0;
+  height: 24em;
+  justify-content: center;
+  align-items: center;
+}
+.second-box h2{
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  padding: 25px;
+}
+.second-box h3{
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+}
+
+.second-box .centered-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.scroll{
+  position: fixed;
+  bottom:0;
+}
+.nrmltext{
+  color:white;
+  font-weight:bold;
+  font-size:40px;
+  padding:5px;
+ 
+  margin-bottom:0;
+  margin-top:0;
+  width: 100%;
+}
+
+.yas{
+  border:1px solid black;
+  padding:10px;
+  border-radius:10px;
+  width:20%;
+  color:rgb(0,0,0);
+  font-size: large;
+}
+.form-main {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-main h3 {
+  margin-top: 0;
+}
+
+.form-main label {
+  display: block;
+  margin-bottom: 5px;
+  font-size:medium;
+}
+
+.form-main select,
+.form-main input[type="file"],
+.form-main input[type="textarea"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size:large;
+}
+
+.form-main input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form-main button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-main button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+video source{
+  margin:10px 0;
+  padding:5px;
+  overflow-y: hidden;
+  
+}
+img{
+  border-radius: 10px;
+}
+
+.single-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+nav a{
+  font-size:20px;
+  text-align:center;
+  text-decoration:none;
+  padding:10px;
+  border-radius:4px;
+}
+.deldata {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.deldata img {
+  margin-right: 10px;
+}
+
+.deldata button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.deldata button:hover {
+  background-color: #d32f2f;
+}
+
+.register-form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.upload {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+  padding: 10px;
+  background-color: #f3f0ec;
+}
+
+.upload a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #2a4590;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700; 
+  font-size: 18px;
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, #d9d1d1, #f5f8cd); 
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3); 
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+
+.icon {
+  margin-bottom: 10px;
+  max-width: 100%; 
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #f0f0f0; 
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none; 
+  color: #333; 
+  transition: background-color 0.3s ease; 
+}
+
+.grid-item:hover {
+  background-color: #ddd; 
+   transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+
+.header-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.header-text h1 {
+  font-size: 24px; 
+  font-weight: bold;
+  color: #1d5897;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.header-text h1:hover {
+  color: #443720; 
+  transform: scale(1.05); 
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.form-main {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-main h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-main label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-main select,
+.form-main input[type="date"],
+.form-main input[type="file"],
+.form-main textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-main button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-main button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form-main p {
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold; 
+}
+
+.text {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: #1766b5;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none; 
+  margin-right: 20px;
+  font-size: 18px; 
+  transition: color 0.3s ease;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  color: lightblue;
+}
+
+.nav-link:first-child {
+  background-color: #007bff; 
+  border-radius: 5px;
+}
+
+.nav-link:last-child {
+  background-color: #28a745;
+  border-radius: 5px;
+}
+
+.image-container {
+  position: relative;
+  width: 160px; 
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.image-container::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 32, 32, 0.7);
+  color: #fff;
+  padding: 6px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+  font-size: 16px; 
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.image-container:hover::before {
+  opacity: 1;
+}
+
+.custom-marquee {
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.33em;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.custom-marquee img {
+  max-width: 100%;
+  height: 1.2em;
+}
+
+.custom-marquee-tag {
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.33em;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.custom-marquee-tag img {
+  max-width: 100%;
+  height: 1.2em;
+}
+
+.centered-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.centered-content-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+
